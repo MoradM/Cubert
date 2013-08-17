@@ -1,4 +1,8 @@
 Hi!
+
+Here's a video of the first two levels:
+https://www.facebook.com/photo.php?v=10151584281838301
+
 You are very welcome to add levels, obstacles and such in the style of the game. Play the first few levels to get the picture,
 and try to create new features, add some new skills.
 
