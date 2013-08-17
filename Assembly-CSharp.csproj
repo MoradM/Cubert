@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Hints\hintsScript.cs" />
      <Compile Include="Assets\Scripts\Level 2\movingPlatform1.cs" />
      <Compile Include="Assets\Scripts\Level 3\platformMoverUpDown.cs" />
+     <Compile Include="Assets\Scripts\Main Menu\rotateCubert.cs" />
      <Compile Include="Assets\Scripts\particleSystemFollowChar.cs" />
      <Compile Include="Assets\Scripts\smoothFollow.cs" />
      <Compile Include="Assets\Scripts\switchLevels.cs" />

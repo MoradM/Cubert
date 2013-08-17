@@ -6,15 +6,17 @@ public class switchLevels : MonoBehaviour {
 	public string levelName;
 	private bool hasTriggered = false;
 	
-	// Use this for initialization
-	void Start () {
 	
+	void Start () {
+		if(!Application.loadedLevelName.Equals("mainMenu"))
+			PlayerPrefs.SetString("LevelReached", Application.loadedLevelName);
 	}
 	
-	// Update is called once per frame
+	
 	void Update () {
-		if(hasTriggered)
+		if(hasTriggered){
 			Application.LoadLevel(levelName);
+		}
 	}
 	
 	void OnTriggerEnter(Collider c){
