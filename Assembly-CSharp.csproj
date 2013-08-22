@@ -51,6 +51,8 @@
      <Compile Include="Assets\Scripts\Level 4\colorPlat.cs" />
      <Compile Include="Assets\Scripts\Level 4\colorSphere.cs" />
      <Compile Include="Assets\Scripts\Level 4\colorTrigger.cs" />
+     <Compile Include="Assets\Scripts\Level 5\fire.cs" />
+     <Compile Include="Assets\Scripts\Level 5\stairsTrigger.cs" />
      <Compile Include="Assets\Scripts\Main Menu\mainmenu.cs" />
      <Compile Include="Assets\Scripts\particleSystemFollowChar.cs" />
      <Compile Include="Assets\Scripts\smoothFollow.cs" />

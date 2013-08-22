@@ -47,7 +47,7 @@ public class smoothFollow : MonoBehaviour {
 				col.a = 0.120f;
 				wall.renderer.material.color = col;
 				crossedWall=true;
-			print ("went in");
+		
 		}
 		
 		else{
@@ -55,7 +55,7 @@ public class smoothFollow : MonoBehaviour {
 				GameObject wall = GameObject.FindGameObjectWithTag("lookThrough");
 				wall.renderer.material.color=beginColor;
 				crossedWall=false;
-				print ("went out");
+				
 			}
 		}
 		//End fading out wall
